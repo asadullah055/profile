@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: 'poppins', sans-serif;
+    background-color: #F7F6FB;
+  }
+
+  #root {
+    width: 100%;
+  }
+}
+
+.react-responsive-modal-modal {
+  width: 88%;
+}
+
+@media screen and (min-width: 425px) {
+  .react-responsive-modal-modal {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .react-responsive-modal-modal {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .react-responsive-modal-modal {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .react-responsive-modal-modal {
+    width: 35%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .react-responsive-modal-modal {
+    width: 28%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .react-responsive-modal-modal {
+    width: 25%;
+  }
+}
